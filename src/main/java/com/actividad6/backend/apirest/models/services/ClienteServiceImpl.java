@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.backend.apirest.models.services;
+package com.actividad6.backend.apirest.models.services;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bolsadeideas.springboot.backend.apirest.models.dao.IClienteDao;
-import com.bolsadeideas.springboot.backend.apirest.models.entity.Cliente;
+import com.actividad6.backend.apirest.models.dao.IClienteDao;
+import com.actividad6.backend.apirest.models.entity.Cliente;
 
 @Service
 public class ClienteServiceImpl implements IClienteService {
