@@ -26,7 +26,7 @@ public class ClienteRestControllerTest extends TestCase {
         cliente.setEmail("name test");
         cliente.setApellido("last name");
         cliente.setCreateAt(new Date());
-        cliente.setEmail("test@gmail.com");
+        cliente.setEmail("testing@gmail.com");
 
         clienteResponse = clienteService.save(cliente);
 
